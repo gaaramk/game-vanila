@@ -1,67 +1,25 @@
-🎮 game‑vanila
+# 🎮 Game Vanila
 
-A lightweight and interactive browser game built entirely with vanilla JavaScript, HTML5, and CSS3, showcasing fundamental game development techniques without external libraries.
-🧩 Features
+An interactive game catalog built with **Vanilla JavaScript**, **Tailwind CSS**, and **public game API integration**. The app allows users to browse, filter, and view detailed information about free online games across various genres.
 
-    Responsive game area using semantic HTML and CSS
+## 🌟 Features
 
-    Core game loop handling updates & rendering
+- Filter games by genre (Shooter, MMORPG, Sailing, etc.)
+- View game details in a sleek modal
+- Smooth transitions and animations using AOS
+- Responsive and mobile-friendly UI via Tailwind & Flowbite
+- Organized with ES6 Modules for scalability
 
-    Real-time user input for character control
+## 🧰 Tech Stack
 
-    Asset management (sprites, sounds, etc.)
+- **HTML5**, **Tailwind CSS**
+- **JavaScript (ES Modules)**
+- **Flowbite**, **FontAwesome**
+- **AOS (Animate On Scroll)**
+- **jQuery** (light usage)
 
-    Collision detection and state management for gameplay logic
+## 🚀 Getting Started
 
-    Modular code structure: separated JS modules for maintainability
-
-📁 Project Structure
-
-.
-├─ index.html         ← Game canvas and UI
-├─ css/               ← Stylesheets for layout and visuals
-├─ js/                ← Game logic (modules like main.js, input.js, gameLoop.js)
-├─ assets/
-│   ├─ images/        ← Sprites and graphics
-│   └─ audio/         ← Sound effects and background music
-└─ README.md          ← Project documentation
-
-🚀 Getting Started
-Locally
-
-    Clone the repo:
-
-    git clone https://github.com/gaaramk/game-vanila.git
-
-    Open index.html in your browser.
-
-    Start playing instantly—no build or server needed.
-
-Live Demo
-
-(Optional: Add a link if you've deployed on GitHub Pages or similar.)
-🛠️ Tech Stack
-
-    HTML5 – Semantic structure and canvas element
-
-    CSS3 – Styling and responsive layout
-
-    JavaScript (ES6) – Core gameplay mechanics, event handling, and game loop
-
-💡 Why “Vanilla”?
-
-This project demonstrates how to build a fully functional game without frameworks or engines, focusing on:
-
-    Core JavaScript concepts: classes, modules, events
-
-    Game development fundamentals: rendering, timing, collision
-
-    Clean and modular code ideal for learning and expansion
-
-✔️ Contribute & Extend
-
-    Add new levels, characters, sound effects, or features like scoring or difficulty levels
-
-    Refactor with ESModules or build tools (bundlers, TypeScript, etc.)
-
-    Mobile support: add touch/mouse input handling
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/gaaramk/game-vanila.git
